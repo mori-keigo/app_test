@@ -256,7 +256,7 @@ class GuessInputPage extends StatelessWidget {
             TextField(
               controller: _controller,
               decoration: const InputDecoration.collapsed(
-                hintText: '数を当ててください',
+                hintText: '数を当ててください！',
                 border: OutlineInputBorder(
                   borderSide: BorderSide(
                     width: 0,
