@@ -49,8 +49,6 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Column(
           children: [
-            Image.network('./undraw_game_day_ucx9.png',
-                height: 600, width: 600),
             ElevatedButton(
               child: const Text(
                 '今すぐ遊ぶ！',
