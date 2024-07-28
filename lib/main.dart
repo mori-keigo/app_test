@@ -42,29 +42,9 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: Icon(Icons.menu),
         backgroundColor: Colors.orange,
         centerTitle: true,
-        title: const Text('AppBar'),
-        actions: <Widget>[
-          Row(
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: [
-              IconButton(
-                icon: Icon(Icons.face, color: Colors.white),
-                onPressed: () {},
-              ),
-              IconButton(
-                icon: Icon(Icons.email, color: Colors.white),
-                onPressed: () {},
-              ),
-              IconButton(
-                icon: Icon(Icons.favorite, color: Colors.white),
-                onPressed: () {},
-              ),
-            ],
-          ),
-        ],
+        title: const Text('Welcome to Guessing Number Game!'),
       ),
       body: Center(
         child: Column(
