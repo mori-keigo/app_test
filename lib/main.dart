@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 height: 600, width: 600),
             ElevatedButton(
               child: const Text(
-                '遊ぶ！',
+                '今すぐ遊ぶ！',
                 style: TextStyle(
                   fontSize: 30,
                 ),
