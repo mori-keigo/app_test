@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="C:\Users\mori_keigo\Documents\flutter_application_initial\guess_number\android\app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.3.0"
+    buildFolder="C:\Users\mori_keigo\Documents\flutter_application_initial\guess_number\build\app"
+    bootClassPath="C:\Users\mori_keigo\AppData\Local\Android\sdk\platforms\android-34\android.jar;C:\Users\mori_keigo\AppData\Local\Android\sdk\build-tools\30.0.3\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
